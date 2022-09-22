@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(./assets/bgimg.jpg);
+}
+#textDiv{
+    background-color: rgba(0, 0, 0, 0.653);
+    height: calc(12vh);
+    width: calc(50vw);
+    margin-top: 0.5%;
+    margin-left: 25%;
+}
+.headText{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5%;
+    text-decoration: underline;
+}
+.main{
+    height: calc(85vh);
+    width: calc(92vw);
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: auto;
+    margin-top: 0.5%;
+}
+/* .logoutBtn{
+    height: calc(10vh);
+    width: calc(12vw);
+    margin-left: 1%;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: rgb(255, 232, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(131, 131, 131);
+    display: block;
+}
+.movieBtn{
+    height: calc(10vh);
+    width: calc(12vw);
+    margin-left: 1%;
+    margin-top: 12%;
+    cursor: pointer;
+    background-color: rgb(255, 232, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(131, 131, 131);
+    display: block;
+} */
+/* .logoutBtn:hover, .movieBtn:hover{
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    text-decoration: underline;
+    border: 5px solid rgb(212, 185, 11);
+} */
+.container{
+    height: calc(81vh);
+    width: calc(85vw);
+    background-color: rgba(29, 77, 61, 0.395);
+    position: absolute;
+    left: 7%;
+    top: 16%;
+    border: 5px solid rgb(255, 232, 84);
+    display: block;
+}
+.container2{
+    height: calc(80vh);
+    width: calc(75vw);
+    background-color: rgb(41, 255, 123);
+    position: absolute;
+    left: 19%;
+    top: 14.5%;
+    display: none;
+}
+.one{
+    background: url(./assets/movieimg1.jpg);
+    background-position: 50%;
+    height: calc(60vh);
+    width: calc(20vw);
+    border-radius: 20px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    cursor: pointer;    
+}
+.two{
+    background: url(./assets/movieimg2.jpg);
+    background-position: 50%;
+    height: calc(60vh);
+    width: calc(20vw);
+    border-radius: 20px;
+    position: absolute;
+    top: 3%;
+    left: 26.5%;
+    cursor: pointer;
+}
+.three{
+    background: url(./assets/movieimg3.jpg);
+    background-position: 50%;
+    height: calc(60vh);
+    width: calc(20vw);
+    border-radius: 20px;
+    position: absolute;
+    top: 3%;
+    left: 51%;
+    cursor: pointer;
+}
+.four{
+    background: url(./assets/movieimg4.jpg);
+    background-position: 50%;
+    height: calc(60vh);
+    width: calc(20vw);
+    border-radius: 20px;
+    position: absolute;
+    top: 3%;
+    left: 76%;
+    cursor: pointer;
+}
+.one:hover, .two:hover, .three:hover, .four:hover{
+    opacity: 0.8;
+}
+.nameOne, .nameTwo, .nameThree, .nameFour{
+    height: calc(9.5vh);
+    width: calc(19vw);
+    background-color: rgb(255, 231, 73);;    
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid grey;
+}
+.nameOne{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    line-height: 180%;
+}
+.nameTwo{
+    position: absolute;
+    top: 80%;
+    left: 26.5%;
+    font-size: 28px;
+}
+.nameThree{
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    line-height: 180%;
+}
+.nameFour{
+    position: absolute;
+    top: 80%;
+    left: 76%;
+    line-height: 180%;
+}
+.nameOne:hover, .nameTwo:hover, .nameThree:hover, .nameFour:hover{
+    line-height: 200%;
+    height: calc(8.5vh);
+    width: calc(19vw);
+    text-decoration: underline;
+    font-size: 24px;
+    border: 3px solid white;
+    background-color:  rgb(255, 221, 0);;
+}
+#link1, #link2, #link3, #link4{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+#link1{
+    position: absolute;
+    top: 93%;
+    left: 3%;
+}
+#link2{
+    position: absolute;
+    top: 93%;
+    left: 28%;
+}
+#link3{
+    position: absolute;
+    top: 93%;
+    left: 52%;
+}
+#link4{
+    position: absolute;
+    top: 93%;
+    left: 77%;
+}
+#link1:hover, #link2:hover, #link3:hover, #link4:hover{
+    color: rgb(229, 255, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+#link1:active, #link2:active, #link3:active, #link4:active{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+#linkLogOut{
+    color: black;
+}
